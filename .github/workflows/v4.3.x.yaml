@@ -3,11 +3,11 @@ env:
   APPVERSION: 4.3.${{ github.run_number }}
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - "main"
-    paths:
-      - "src/**.ts"
+#  push:
+#    branches:
+#      - "main"
+#    paths:
+#      - "src/**.ts"
 jobs:
   publish-gpr:
     runs-on: ubuntu-latest
